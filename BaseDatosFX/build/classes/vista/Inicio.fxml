@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="inicio" prefHeight="584.0" prefWidth="918.0" style="-fx-background-color: #052d37;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.InicioController">
+   <children>
+      <ImageView fx:id="logoInicio" fitHeight="52.0" fitWidth="158.0" layoutX="20.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../proyecto/Baseflow%20logo.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="txt1Inicio" fill="#e0c596" layoutX="308.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conexión a tu motor de base de datos">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt2Inicio1" fill="#e0c596" layoutX="145.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IP/nombre de red">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtFld1" layoutX="285.0" layoutY="170.0" style="-fx-background-color: #e0c596;" text="127.0.0.1" />
+      <Text fx:id="txt2Inicio2" fill="#e0c596" layoutX="488.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puerto">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtFld2" layoutX="545.0" layoutY="170.0" style="-fx-background-color: #e0c596;" text="3306" />
+      <Text fx:id="txt2Inicio3" fill="#e0c596" layoutX="139.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de usuario">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtFld3" layoutX="285.0" layoutY="323.0" style="-fx-background-color: #e0c596;" text="root" />
+      <Text fx:id="txt2Inicio4" fill="#e0c596" layoutX="471.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtFld4" layoutX="585.0" layoutY="323.0" style="-fx-background-color: #e0c596;" text="123456" />
+      <Button fx:id="btnIniciarSesion" layoutX="410.0" layoutY="451.0" mnemonicParsing="false" onAction="#listarBasesDeDatos" prefHeight="39.0" prefWidth="98.0" style="-fx-background-color: #53936c; -fx-border-color: #a2ecb3;" text="Iniciar sesión" textFill="WHITE" />
+   </children>
+</AnchorPane>

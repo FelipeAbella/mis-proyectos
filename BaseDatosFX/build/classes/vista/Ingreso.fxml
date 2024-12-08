@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="ingreso" prefHeight="584.0" prefWidth="918.0" style="-fx-background-color: #052d37;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto.IngresoController">
+   <children>
+      <ImageView fitHeight="151.0" fitWidth="501.0" layoutX="218.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../proyecto/Baseflow%20logo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnIniciar" layoutX="398.0" layoutY="345.0" mnemonicParsing="false" onAction="#iniciar" prefHeight="41.0" prefWidth="122.0" style="-fx-background-color: #052d37; -fx-border-color: #FFFFFF;" text="Iniciar" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
