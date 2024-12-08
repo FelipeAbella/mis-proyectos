@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camara">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h05"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".05"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h95"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".95"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v05"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v95"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/v95"
+        app:layout_constraintStart_toStartOf="@+id/v05"
+        app:layout_constraintTop_toTopOf="@+id/h05">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/openCamera"
+            android:layout_weight="1"
+            android:text="Abrir cámara"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveToGallery"
+            android:layout_weight="1"
+            android:text="Guardar foto"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/img"
+        android:layout_marginTop="3dp"
+        app:layout_constraintTop_toBottomOf="@+id/ll1"
+        app:layout_constraintStart_toStartOf="@+id/v05"
+        app:layout_constraintEnd_toEndOf="@+id/v95"
+        app:layout_constraintBottom_toBottomOf="@+id/h95"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
