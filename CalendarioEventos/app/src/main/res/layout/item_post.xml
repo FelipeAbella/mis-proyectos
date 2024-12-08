@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contenido de la publicación"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de la publicación"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/imageViewPost"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:id="@+id/buttonLike"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/like"
+            android:contentDescription="Botón Me gusta"/>
+
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/buttonDislike"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dislike"
+            android:contentDescription="Botón No me gusta"/>
+    </LinearLayout>
+
+</LinearLayout>

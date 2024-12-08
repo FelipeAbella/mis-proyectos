@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "525734234702",
+    "firebase_url": "https://proyecto2-b0027-default-rtdb.firebaseio.com",
+    "project_id": "proyecto2-b0027",
+    "storage_bucket": "proyecto2-b0027.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525734234702:android:57e158bad1247fa81a911f",
+        "android_client_info": {
+          "package_name": "com.felipeabella.agendarcita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCI7PpWCKgarbbS7L-BCK2GYLoFSxD9fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525734234702:android:b6bde0b4aedb05fa1a911f",
+        "android_client_info": {
+          "package_name": "com.felipeabella.perfil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCI7PpWCKgarbbS7L-BCK2GYLoFSxD9fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525734234702:android:05773b245fd9fb5e1a911f",
+        "android_client_info": {
+          "package_name": "com.felipeabella.proyectocorte2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCI7PpWCKgarbbS7L-BCK2GYLoFSxD9fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

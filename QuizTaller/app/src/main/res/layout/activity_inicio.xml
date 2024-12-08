@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inicio"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:columnCount="2"
+        android:rowCount="8">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:background="@drawable/et_format"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="13dp"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_background"
+            android:textSize="22dp"
+            android:text="ENTRAR"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="13dp"/>
+
+        <Button
+            android:id="@+id/btnReestablecer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="@drawable/btn_background"
+            android:textSize="22dp"
+            android:text="REESTABLECER CONTRASEÑA"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            android:paddingLeft="13dp"/>
+
+    </GridLayout>
+
+
+</LinearLayout>
